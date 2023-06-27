@@ -1,9 +1,9 @@
 function caesarsChipher(str) { 
   
-    var finish = str.length;
-    var result = "";
-    var letterA;
-    var letterB;
+    let finish = str.length;
+    let result = "";
+    let letterA;
+    let letterB;
    
     for (let i = 0; i < finish; i++) {
       
@@ -29,4 +29,4 @@ function caesarsChipher(str) {
     
     return result;
   }
-  module.exports = caesarsChipher;
+  module.exports= caesarsChipher;
